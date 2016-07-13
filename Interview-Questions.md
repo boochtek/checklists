@@ -1,5 +1,23 @@
 These are some questions we can ask during phone screens and interviews.
 
+Note that most of these are used to identify technical skills.
+However, there are many non-technical skills and traits that we'd also like
+to identify (although they tend to be harder to determine objectively):
+
+* Ability to work with other team members
+* Ability to learn
+* Ability to teach/mentor
+* Empathy
+* Curiosity
+* Courage
+* Communication
+* Entrepreneurial mindset
+* Gets things done
+* Discipline
+* Sense of purpose
+* Leadership
+
+
 General
 -------
 
