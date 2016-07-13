@@ -62,6 +62,9 @@ Networking
 * Can you name the 7 layers of the OSI model?
     * Can you name the 4 layers of the TCP/IP stack?
 * How does a TCP handshake work?
+* What is a VLAN?
+* How can you find a server's IP address?
+    * How can you find a server's *public* IP address? (_kind of a trick question_)
 * What challenges do self-signed SSL (TLS) certificates present?
 * How does DHCP work?
 * How does ARP work?
