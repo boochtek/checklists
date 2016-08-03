@@ -64,6 +64,8 @@ UNIX
 Networking
 ----------
 
+* Can you explain how DNS works?
+* When should you *NOT* use a CNAME DNS record?
 * What is a proxy?
     * What is a reverse proxy? (_people have a hard time putting this into words_)
 * What’s the difference between TCP and UDP?
