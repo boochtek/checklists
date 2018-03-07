@@ -21,13 +21,13 @@ to identify (although they tend to be harder to determine objectively):
 General
 -------
 
-* What interests you about CenturyLink?
+* What interests you about this position?
 * Do you see yourself as a success?
 * Have you ever been fired?
 * What aspects of your current job are you most passionate about?
 * How do you currently affect the bottom line at your company?
 * When you think of an ideal work environment, what do people do that make up that culture?
-* Where do you see IT in 3 years?
+* Where do you see the IT industry in 3 years?
 * How would you describe your ideal boss?
 * What did you like least about your last manager?
 * How would you describe your ideal work environment?
@@ -58,6 +58,7 @@ UNIX
 * How would you restart Apache?
     * When would you have to restart Apache?
     * When would you NOT have to restart Apache?
+* What are the advantages of Nginx over Apache?
 * Name a few UNIX commands you use that you think other people should use more.
 
 
@@ -69,16 +70,6 @@ Networking
 * What is a proxy?
     * What is a reverse proxy? (_people have a hard time putting this into words_)
 * What’s the difference between TCP and UDP?
-* What are the advantages and disadvantages of HTTP being stateless?
-    * How can a web app maintain state on top of a stateless protocol?
-* How do the HTTP methods correspond to the CRUD verbs?
-* What are the parts of an HTTP request?
-    * Can you name some HTTP request and response headers?
-* Which HTTP methods are idempotent? Which are NOT idempotent?
-    * What does "idempotent" mean?
-* Which HTTP methods are "safe"?
-    * What's the problem with GET requests that make database changes?
-* What happens when you enter `google.com` in a web browser?
 * Can you name the 7 layers of the OSI model?
     * Can you name the 4 layers of the TCP/IP stack?
 * How does a TCP handshake work?
@@ -91,6 +82,22 @@ Networking
     * What is a gratuitous ARP? When/why would you send one?
 
 
+Web
+---
+
+* What's the problem with inline CSS?
+* What are the advantages and disadvantages of HTTP being stateless?
+    * How can a web app maintain state on top of a stateless protocol?
+* How do the HTTP methods correspond to the CRUD verbs?
+* What are the parts of an HTTP request?
+    * Can you name some HTTP request and response headers?
+* Which HTTP methods are idempotent? Which are NOT idempotent?
+    * What does "idempotent" mean?
+* Which HTTP methods are "safe"?
+    * What's the problem with GET requests that make database changes?
+* What happens when you enter `google.com` in a web browser?
+
+
 Cloud
 -----
 
@@ -100,12 +107,15 @@ Cloud
 * What is HATEOAS?
 * What are some solutions to the challenges of versioning APIs?
 * Do you know what the CAP theorem is?
+* What are the trade-offs of NoSQL versus SQL?
+* What AWS services are you familiar with?
 
 
 OOP
 ---
 
 * What is Object Oriented Programming? (_not getting "polymorphism" very often_)
+* Can you have object-orientation without classes?
 * What does SOLID stand for?
     * What does the single responsibility principle (SRP) mean?
 
@@ -127,18 +137,39 @@ Dev
     * How can you prevent SQL injection?
 
 
+Architecure
+-----------
+
+* What are the pros and cons of micro-services?
+* Have you used message queues to communicate between components?
+* Have you used a service bus?
+
+
+DevOps
+------
+
+* Have you used Ansible, Puppet, or Chef?
+* Have you used Docker?
+* Have you used Kubernetes?
+* Have you used any other DevOps tools?
+
+
 Agile
 -----
 
 * What does Agile mean to you?
+* What's the purpose of a retrospective?
+* What's the purpose of standup meetings?
+    * What's the biggest anti-pattern that happens with standup meetings?
 * Have you pair programmed?
     * How do you feel about pair programming?
 * What are the benefits of TDD?
     * What does the “driven” in TDD mean?
     * What’s the advantage of test first?
 * What is a code smell?
-* What is refactoring?
+* What is refactoring? (_most people miss the part about not changing external behavior_)
     * Can you name a refactoring? (_see http://refactoring.com/catalog for a list_)
+* What is continuous delivery? How do you get there?
 
 
 Behavioral
