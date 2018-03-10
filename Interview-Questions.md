@@ -115,21 +115,36 @@ OOP
 ---
 
 * What is Object Oriented Programming? (_not getting "polymorphism" very often_)
+    * What is polymorphism?
+    * What is encapsulation?
 * Can you have object-orientation without classes?
 * What does SOLID stand for?
     * What does the single responsibility principle (SRP) mean?
+    * What is the open/closed principle?
+    * What is the Liskov substitution principle?
+    * What is the interface segregation principle? (_probably the hardest of these_)
+    * What is the dependency inversion principle?
+* What is the Law of Demeter?
+* What problems can inheritence cause?
+    * How can you mitigate those problems?
+* Can you explain cohesion and coupling?
+* What is a god class?
+    * How can you mitigate the issues with having a god class?
+* What's the problem with multiple inheritance?
+* What is a pattern?
+    * Explain one of the patterns you use.
 
 
 Dev
 ---
 
+* What is the DRY principle?
+    * What are some things to be awae of when DRYing up code?
 * What’s your favorite programming language?
     * What do you like about it?
     * What are the biggest problems you have with that language?
 * How do you feel about commenting code?
 * What’s the difference between `git merge` and `git rebase`? (_not many are getting this_)
-* What is a pattern?
-    * Explain one of the patterns you use.
 * Why should you not use regular expressions to parse HTML?
 * Can you explain what big-O notation is? (_not many are getting this one quite right_)
 * Why should you always use `var` in JavaScript?
