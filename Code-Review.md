@@ -15,6 +15,9 @@ NOTE: The rules can be broken, but you have to give a good reason, and convince 
 - [ ] The code has a neutral or positive impact on Code Climate.
     - [ ] Any negative impact has been justified (preferably in a commit message).
 - [ ] The code that has been added or changed is well-factored.
+- [ ] No use of ActiveRecord `where`, `order`, `includes`, `select`, `joins`, `group`, or `having` outside model classes.
+- [ ] Models have thorough validations.
+- [ ] No use of SQL strings that could be replaced with ARel.
 - [ ] Rake tasks of more than a few lines have been extracted into a class, with specs.
 - [ ] There are no glaring errors, omissions, or poor-quality code.
     - [ ] Classes and method names make their intentions clear.
