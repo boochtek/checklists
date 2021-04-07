@@ -58,7 +58,13 @@ UNIX
 * How would you restart Apache?
     * When would you have to restart Apache?
     * When would you NOT have to restart Apache?
+* Explain file permissions.
+* What is the sticky bit?
+* Where's the difference between a soft link and a hard link?
+* What is an inode?
+* If you do `ls`, you can see files, directories, and what else?
 * What are the advantages of Nginx over Apache?
+* All I/O is through "files" in the file system, except for what?
 * Name a few UNIX commands you use that you think other people should use more.
 
 
