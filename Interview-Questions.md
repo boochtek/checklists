@@ -75,17 +75,31 @@ Networking
 * When should you *NOT* use a CNAME DNS record?
 * What is a proxy?
     * What is a reverse proxy? (_people have a hard time putting this into words_)
+* How does a switch work?
+* How does a router work?
 * What’s the difference between TCP and UDP?
+* What's the difference between IP and UDP?
 * Can you name the 7 layers of the OSI model?
     * Can you name the 4 layers of the TCP/IP stack?
 * How does a TCP handshake work?
+* What's an MTU?
+    * Why is it important?
 * What is a VLAN?
 * How can you find a server's IP address?
     * How can you find a server's *public* IP address? (_kind of a trick question_)
 * What challenges do self-signed SSL (TLS) certificates present?
+* How does a system get its IP address?
 * How does DHCP work?
 * How does ARP work?
     * What is a gratuitous ARP? When/why would you send one?
+* Explain CIDR and CIDR notation.
+* What is the subnet mask for a 24-bit subnet?
+* What is the loopback address? What is it used for?
+    * What is the IPv6 loopback address?
+* Can you name all 3 private IPv4 address ranges? (_the 20-bit block will be trickiest to recall_)
+    * Which RFC defines them?
+    * Bonus points if you can name a 4th.
+    * Bonus points if you can name the IPv6 private address range.
 
 
 Web
