@@ -137,6 +137,7 @@ OOP
 * What is Object Oriented Programming? (_not getting "polymorphism" very often_)
     * What is polymorphism?
     * What is encapsulation?
+* What's the difference between an object and a class?
 * Can you have object-orientation without classes?
 * What does SOLID stand for?
     * What does the single responsibility principle (SRP) mean?
