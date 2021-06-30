@@ -63,8 +63,21 @@ UNIX
 * Where's the difference between a soft link and a hard link?
 * What is an inode?
 * If you do `ls`, you can see files, directories, and what else?
+* If you accidentally delete a file, but another process still has it open, how can you rescue it?
+* What command(s) can you use to show what process has a file open?
+    * Answer: `lsof`
+    * Answer: `fuser`
+* How can you see what process is listening on a port?
+    * `lsof -i tcp:$PORT` (Linux)
+    * `fuser -v $PORT/tcp` (BSD)
+    * `netstat -planet | grep $PORT` (Linux)
+    * `netstat -n | grep LISTEN | grep $PORT` (Mac)
 * What are the advantages of Nginx over Apache?
 * All I/O is through "files" in the file system, except for what?
+* What is RAID?
+    * What are the RAID levels?
+    * BONUS: Why does nobody use levels 2, 3, or 4?
+* What does the `ldd` command do?
 * Name a few UNIX commands you use that you think other people should use more.
 
 
@@ -78,6 +91,7 @@ Networking
 * How does a switch work?
 * How does a router work?
 * What’s the difference between TCP and UDP?
+* Name some commonly used TCP and UDP ports, and their associated protocols.
 * What's the difference between IP and UDP?
 * Can you name the 7 layers of the OSI model?
     * Can you name the 4 layers of the TCP/IP stack?
@@ -129,6 +143,9 @@ Cloud
 * Do you know what the CAP theorem is?
 * What are the trade-offs of NoSQL versus SQL?
 * What AWS services are you familiar with?
+* Why should you not put databases on VMs and containers?
+    * Answer: performance issues (still)
+    * Answer: possibility of accidentally taking down due to configuration issues
 
 
 OOP
