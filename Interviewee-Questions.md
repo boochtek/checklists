@@ -5,6 +5,7 @@ General
 
 * What's the best part of the job?
 * What's the worst part of the job? Or, what would you most like to change?
+* What are the primary dysfunctions of the team?
 * What does a typical day look like?
 * What does success look like?
 * What's the recent turn-over look like? Why are people leaving? Where are they going?
